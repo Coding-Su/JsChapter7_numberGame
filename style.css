@@ -1,0 +1,65 @@
+body {
+  text-align: center;
+  padding-top: 150px;
+}
+
+.title {
+  font-size: xx-large;
+  color: blue;
+}
+
+.main_img {
+  width: 500px;
+  margin: 30px;
+}
+
+#result-area {
+  color: black;
+  margin-bottom: 10px;
+  font-size: larger;
+}
+
+#chance-area {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.input_tag {
+  margin: 20px;
+}
+
+
+#user-input {
+  padding: 5px 10px;  
+}
+
+#play-button {  
+  font-size: larger;
+  padding: 20px 40px;
+  background-color: rgb(9, 146, 9);
+  color: white;
+  border: none;
+  border-radius: 30px;
+}
+
+#play-button:hover,
+#play-button.active {
+  background: rgb(31, 240, 31);
+  color: white;
+}
+
+#reset-button {
+  margin: 30px;
+  font-size: larger;
+  padding: 20px 40px;
+  background-color: yellow;
+  color: black;
+  border: none;
+  border-radius: 30px;
+}
+
+#reset-button:hover,
+#reset-button.active {
+  background: rgb(233, 233, 77);
+  color: black;
+}
